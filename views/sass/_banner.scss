@@ -1,0 +1,39 @@
+.ow-banner-main{
+    width: 100%;
+    margin-top: -160px;
+    position: relative;
+    z-index: 1;
+    background-color: $color__secondary;
+    .ow-banner-main{
+    
+        width: 100%;
+    
+    }
+    
+    .ow-banner-title{
+        position: relative;
+        color: $color__white;
+        font-family: $font_montserrat;
+        font-weight: 800;
+        z-index: 9;
+    }
+    
+    .ow-banner-text{
+        position: relative;
+        color: $color__white;
+        
+    }
+
+    .ow-banner-btn{
+        position: relative;
+        z-index: 7;
+    }
+
+}
+
+
+@media only screen and (max-width: 992px){
+    .ow-banner-title, .ow-banner-text, .ow-banner-btn {
+        margin-left: 30px;
+    }
+}

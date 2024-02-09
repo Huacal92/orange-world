@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'ow-icons-main';
+  src:  url('./fonts/ow-icons-main.eot?dq7fcc');
+  src:  url('./fonts/ow-icons-main.eot?dq7fcc#iefix') format('embedded-opentype'),
+    url('./fonts/ow-icons-main.ttf?dq7fcc') format('truetype'),
+    url('./fonts/ow-icons-main.woff?dq7fcc') format('woff'),
+    url('./fonts/ow-icons-main.svg?dq7fcc#ow-icons-main') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ow-icons-main' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alcance-about:before {
+  content: "\e900";
+}
+.icon-alta-calidad-ow:before {
+  content: "\e901";
+}
+.icon-app-gestion-ow:before {
+  content: "\e902";
+}
+.icon-arrow-ow:before {
+  content: "\e903";
+}
+.icon-bitrix24-ow:before {
+  content: "\e904";
+}
+.icon-cite-ow:before {
+  content: "\e905";
+}
+.icon-colaboracion-compromiso-ow:before {
+  content: "\e906";
+}
+.icon-currier-ow:before {
+  content: "\e907";
+}
+.icon-design-2-ow:before {
+  content: "\e908";
+}
+.icon-design-ow:before {
+  content: "\e909";
+}
+.icon-dotacion-ow:before {
+  content: "\e90a";
+}
+.icon-elephant-ow:before {
+  content: "\e90b";
+}
+.icon-enfoque-integral-ow:before {
+  content: "\e90c";
+}
+.icon-experiencia-about:before {
+  content: "\e90d";
+}
+.icon-experiencia-ow:before {
+  content: "\e90e";
+}
+.icon-mamba-ow:before {
+  content: "\e90f";
+}
+.icon-owhub-ow:before {
+  content: "\e910";
+}
+.icon-packaging-ow:before {
+  content: "\e911";
+}
+.icon-print-ow:before {
+  content: "\e912";
+}
+.icon-promocionales-ow:before {
+  content: "\e913";
+}
+.icon-resultados-ow:before {
+  content: "\e914";
+}
+.icon-sostenibilidad-ow:before {
+  content: "\e915";
+}
+.icon-visibilidad-pop-ow:before {
+  content: "\e916";
+}

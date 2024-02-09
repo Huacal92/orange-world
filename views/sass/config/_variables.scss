@@ -1,0 +1,42 @@
+/* Colores Marca*/
+
+$color__primary: #FF6309;
+$color__secondary: #000 ;
+$color__terciary: #525FE1;
+$color__green: #92A242;
+$color__green_accent: #464E1C;
+$color__white: #ffffff;
+$color__white_accent: #E9E4D2;
+$color__primary_accent:#c06500;
+
+$bg__color: #f6f6f6;
+$bg__alt:#f8f8f8;
+
+$color__black: #000;
+$color__gray80: #272727;
+$color__gray60: #454546;
+$color__gray40: #666666;
+$color__gray30: #8c8c8c;
+$color__gray20: #cccccc;
+$color__gray10: #f6f6f6;
+
+/* Line Height */
+$line__heigth: 1.875;
+
+/* Colores Tipográfia*/
+$title_h1:$color__secondary;
+$title_h2:$color__secondary;
+$title_h3:$color__secondary;
+$title_h4:$color__secondary;
+$texts: #6d6d6d;
+
+
+
+
+/* Overlays */
+
+$overlay__black: linear-gradient(91deg, #000 1.24%, rgba(0, 0, 0, 0.71) 39.93%, rgba(0, 0, 0, 0.88) 86.25%, #171214 116.71%, #000 116.71%);
+
+/* Gradient */
+
+$gradient__primary: linear-gradient(221deg, #525FE1 36.92%, #FF6309 139.47%);

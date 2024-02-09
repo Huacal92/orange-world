@@ -1,0 +1,141 @@
+.ow-allied-brands{
+    background-color: $bg__color;
+    text-align: center;
+    padding: 120px 0px;
+
+@media only screen and (max-width: 1200px){
+    .ow-allied-brands{
+        padding-left:60px;
+        padding-right: 60px;
+        padding-top: 100px;
+    }
+}  
+
+    .grid-brands{
+        cursor:grab;
+        display: flex;
+        margin-top: 60px;
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+
+        &:active{
+            cursor: grabbing;
+        }
+    }
+    
+
+    .logo-brand{
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 160px;
+        height: auto;
+        margin: 0 20px;
+        box-sizing: border-box;
+        text-align: center;
+        filter: grayscale(100%);
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+        &:hover{
+            filter: grayscale(0%);
+        }
+
+    }
+
+}
+
+
+@media only screen and (max-width: 1200px){
+    .ow-allied-brands{
+        padding-left:60px;
+        padding-right: 60px;
+        padding-top: 100px;
+    }
+} 
+
+
+@media only screen and (max-width: 480px) {
+    .ow-allied-brands{
+        padding: 90px 30px;
+
+        .grid-brands {
+            padding: 0px 30px;
+        }
+    }
+}
+
+.ow-our-clients{
+    background-color: $color__white;
+    text-align: center;
+    padding: 150px 0px 150px;
+
+    .grid-brands{
+        cursor:grab;
+        display: flex;
+        margin-top: 60px;
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+
+        &:active{
+            cursor: grabbing;
+        }
+    }
+    
+
+    .logo-brand{
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 160px;
+        height: auto;
+        margin: 0 20px;
+        box-sizing: border-box;
+        text-align: center;
+        filter: grayscale(100%);
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+        &:hover{
+            filter: grayscale(0%);
+        }
+
+    }
+}
+@media only screen and (max-width: 1080px){
+    .ow-counter-clients{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .ow-counter-clients{
+        .grid-data{
+            flex-wrap: wrap !important;
+            height: auto!important;
+            padding-bottom: 60px;
+            .data-item{
+                width: 46%;
+            }
+        }  
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .ow-our-clients{
+        >.ow-heading-center{
+            padding: 0px !important;
+            margin: 0px !important;
+        }
+    }
+}
+

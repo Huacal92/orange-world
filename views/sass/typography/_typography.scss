@@ -1,0 +1,248 @@
+@import "../config/variables";
+@import "fonts.scss";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea{
+    color: $texts;
+    font-family: $font_nunito;
+    font-size: 16px;
+    line-height: $line__heigth;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font_montserrat;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0 0 6px;
+    color: $color__secondary;
+  }
+
+h1{
+    font-size: $size__h1;
+}
+h2{
+    font-size: $size__h2;
+}
+h3{
+    font-size: $size__h3;
+}
+h4{
+    font-size: $size__h4;
+}
+h5{
+    font-size: $size__h5;
+}
+h6{
+    font-size: $size__h6 !important;
+}
+
+p{
+    font-size: $size__p;
+    margin: 0 0 20px;
+}
+
+i{
+  
+}
+
+@media only screen and (max-width: 1080px){
+  p{
+    font-size: 21px;
+  }
+}
+
+dfn, cite, em, i {
+    font-style: italic;
+  }
+
+blockquote {
+    font-size: 22px;
+    line-height: 36px;
+    margin: 30px 0 25px;
+    font-family: $font_montserrat;
+    font-weight: 600;
+    padding: 0 30px 0 50px;
+    position: relative;
+    color: $color__secondary;
+  }
+
+  blockquote:before {
+    font: var(--fa-font-solid);
+    content: "\f621";
+    font-size: 30px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: $color__primary;
+  }
+
+  blockquote cite {
+    font-family: $font_nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 10px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $color__gray40;
+  }
+
+  address {
+    margin: 0 0 1.5em;
+  }
+
+  code, kbd, tt, var {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-size: 15px;
+  }
+
+  abbr, acronym{
+    border-bottom: 1px dotted $color__gray40;
+    cursor: help;
+  }
+
+  .bg-alt{
+    background: $bg__alt;
+  }
+
+  .bg-primary{
+    background: $color__primary;
+  }
+
+  .bg-secondary{
+    background: $color__secondary;
+  }
+
+  .text-primary{
+    color: $color__primary;
+  }
+
+  .text-secondary{
+    color: $color__secondary;
+  }
+
+  .text-terciary{
+    color: $color__terciary;
+  }
+
+  .text-dark{
+    color: $color__secondary;
+  }
+
+  .unstyle{
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .font-main{
+    font-family: $font_montserrat;
+  }
+
+  .font-second{
+    font-family: $font_nunito;
+  }
+
+  .bold{
+    font-weight: 700;
+  }
+
+  .medium{
+    font-weight: 700;
+  }
+
+  .normal{
+    font-weight: 400;
+  }
+
+  .ligth{
+    font-weight: 300;
+  }
+
+  .underline{
+    text-decoration: underline;
+  }
+
+  .flex-middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .bg-shadow {
+    box-shadow: 15px 15px 38px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 15px 15px 38px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 15px 15px 38px 0px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .overflow {
+    overflow: hidden;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $overlay__black;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+  }  
+
+
+  .ow-banner-title{
+    color: $color__white;
+    text-shadow: 14px 13px 19px rgba(0, 0, 0, 0.25);
+    font-family: $font_poppins;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    margin-top: 10px;
+    /* text-transform: uppercase; */
+  }
+
+  .ow-banner-text{
+    color: $color__white;
+    font-size: $size__p;
+    font-weight: 400;
+    font-family: $font_montserrat;
+    margin-top: 20px !important;
+
+  }
+
+  .orange{
+    color: $color__primary;
+  }
+
+  .green{
+    color: $color__green;
+  }
+
+
+  .text-white{
+    color: $color__white;
+  }
+
+  .bold-italic{
+    font-weight: 800;
+    font-style: italic;
+  }

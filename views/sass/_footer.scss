@@ -1,0 +1,112 @@
+.site-footer{
+    position: relative;
+    overflow: hidden;
+    background-color: $color__secondary;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0 100px 0;
+    border-top: 3px solid $color__primary;
+    > img{
+        position: absolute;
+        left: 0;
+        bottom: -290px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        opacity: 0.3;
+        z-index: 1;
+    }
+
+    .logo-footer{
+        display: inline-flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        z-index: 2;
+        a{
+            width: 30%;
+            display: block;
+            img{
+                width: 100%;
+            }
+        }
+       
+    }
+
+    .dates-footer{
+        position: relative;
+        z-index: 8;
+        .box-icon{
+            padding: 6px;
+            i{
+                font-size: 36px;
+                color: $color__primary;
+            }
+        }
+    }
+
+    .dates-footer{
+        text-align: center;
+
+        p{
+            color: $color__gray10;
+            font-size: 16%9;
+        }
+
+        h6{
+            color: $color__gray10;
+            font-size: 14;
+            font-weight: 700;
+        }
+    }
+
+    .contact-info{
+        p a{
+           color: $color__gray10; 
+        }
+    }
+
+    .footer-menu{
+        position: relative;
+        z-index: 10;
+        li{
+            list-style: none;
+            font-weight: 800;
+            margin: 0px 30px;
+            font-size: 16px;
+            a{
+                color: $color__gray20;
+                transition: all 0.3s linear;
+                -webkit-transition: all 0.3s linear;
+                -moz-transition: all 0.3s linear;
+                -o-transition: all 0.3s linear;
+                -ms-transition: all 0.3s linear;
+                &:hover{
+                    color: $color__white;
+                }
+            }
+
+            
+        }
+    }
+
+    .copyright-text{
+        color: $color__gray10;
+    }
+
+    .social-footer{
+        position: relative;
+        z-index: 9;
+        margin-top: 30px;
+        a{
+            color: $color__gray20;
+            margin: 0px 12px;
+            font-size: 26px;
+
+            &:hover{
+                color: $color__white;
+            }
+        }
+    }
+}
+

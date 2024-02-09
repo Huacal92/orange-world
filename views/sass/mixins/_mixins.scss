@@ -1,0 +1,45 @@
+@import "../config/variables";
+@mixin nombreMixin(){
+    background: $color__white;
+}
+
+@mixin button-linear($color-btn, $width-btn, $bg-btn){
+    background: $bg-btn;
+    border: $width-btn solid $color-btn;
+    color: $color-btn;
+}
+
+@mixin button-fill($color-btn, $bg-btn){
+    background: $bg-btn;
+    color: $color-btn;
+}
+
+.ow-btn-linear{
+    @include button-linear( $color__primary, 1px, transparent);
+    padding: 0px 16px !important;
+    color: $color__primary !important;
+    border-radius: 3px;
+
+    &:hover{
+        background-color: $color__primary;
+        color: $color__white !important;
+
+    }
+}
+
+.ow-btn-fill{
+    @include button-fill($color__white !important, $color__primary);
+    padding: 0px 16px !important;
+    border-radius: 3px;
+    border: 1px solid $color__primary;
+    &:hover{
+        background-color: transparent;
+        color: $color__primary !important;
+        border: 1px solid $color__primary;
+
+    }
+}
+
+/* header{
+    @include nombreMixin();
+} */
